@@ -1,0 +1,18 @@
+Package: apt
+Architecture: aarch64
+Version: 1.4.8-8
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2896
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, libdb, termux-exec
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: dists/extras/main/binary-aarch64/apt_1.4.8-8_aarch64.deb
+Size: 721612
+MD5sum: 0469e2256f1e5ddcf675c46e7e852fb8
+SHA1: 220ce9fe1969fa5a048b0f7aa3c1c3b583fd9a04
+SHA256: 507ba9bf360230c8102a5a4302debf59e948582b199c30bb243a61536878108d
+SHA512: 4f35e0807b275dafe8a9f610dc028803dea80544c89b14e8f04b18745b5fb179ab711711058c33789ca801b371f1916886b8e5302c48d6a4c0db02f0364d5681
+Homepage: https://packages.debian.org/apt
+Description: Front-end for the dpkg package manager
+
